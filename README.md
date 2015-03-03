@@ -5,9 +5,11 @@ This app will essentially be an online white board or web board for users
 to sketch drawings as their heart desires :)
 
 ## Heroku Link
+__Currently not working, run server locally__
+
 [Web Board](https://web-board-bruteforce.herokuapp.com/)
 
-Raw
+__Raw__
    * https://web-board-bruteforce.herokuapp.com/
 
 ## FAQ's
