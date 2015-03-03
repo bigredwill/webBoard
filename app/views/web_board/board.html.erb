@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>WebBoard</title>
-  </head>
-<body>
-<div class="wrapper">
-	<button type="button" onclick="clearCanvas()">Clear</button>
-	<div id="canvasDiv"></div>
-</div>
-<script type="text/javascript"> $(document).ready(function() {
-       init();
-});</script>
-</body>
+	<head>
+    	<title>WebBoard</title>
+    	<%= stylesheet_link_tag    'board', media: 'all', 'data-turbolinks-track' => true %>
+    	<%= javascript_include_tag 'board', 'data-turbolinks-track' => true %>
+    </head>
+    <body>
+    	<div class="wrapper">
+			<button type="button" onclick="clearCanvas()">Clear</button>
+			<div id="canvasDiv"></div>
+		</div>
+		<script type="text/javascript"> $(document).ready(function() {
+			init();
+		});</script>
+		</body>
 </html>

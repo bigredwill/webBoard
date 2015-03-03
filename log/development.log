@@ -2915,3 +2915,120 @@ Started GET "/assets/web_board-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for :
 
 
 Started GET "/assets/application-11a0f5cb93d186c6f93ec7491041db54.js?body=1" for ::1 at 2015-03-03 02:18:43 -0800
+
+
+Started GET "/" for ::1 at 2015-03-03 13:00:17 -0800
+Processing by WebBoardController#board as HTML
+  Rendered web_board/board.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1320ms (Views: 1310.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-03-03 13:00:19 -0800
+Processing by WebBoardController#board as HTML
+  Rendered web_board/board.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 41ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/canvas-b9163a1b6e2cd5906dd6d813670c1b99.css?body=1" for ::1 at 2015-03-03 13:00:19 -0800
+
+
+Started GET "/assets/web_board-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-03 13:00:19 -0800
+
+
+Started GET "/assets/jquery-8bdddda7cab034f4268c675695fe11c2.js?body=1" for ::1 at 2015-03-03 13:00:19 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-03 13:00:19 -0800
+
+
+Started GET "/assets/web_board-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-03 13:00:19 -0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-03 13:00:19 -0800
+
+
+Started GET "/assets/canvas-49ce8bfcc5d98d2fe81d987499511e51.js?body=1" for ::1 at 2015-03-03 13:00:19 -0800
+
+
+Started GET "/" for ::1 at 2015-03-03 13:04:50 -0800
+Processing by WebBoardController#board as HTML
+  Rendered web_board/board.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 61ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/canvas-b9163a1b6e2cd5906dd6d813670c1b99.css?body=1" for ::1 at 2015-03-03 13:04:50 -0800
+
+
+Started GET "/assets/web_board-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-03 13:04:50 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-03 13:04:50 -0800
+
+
+Started GET "/assets/canvas-49ce8bfcc5d98d2fe81d987499511e51.js?body=1" for ::1 at 2015-03-03 13:04:50 -0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-03 13:04:50 -0800
+
+
+Started GET "/assets/jquery-8bdddda7cab034f4268c675695fe11c2.js?body=1" for ::1 at 2015-03-03 13:04:50 -0800
+
+
+Started GET "/assets/web_board-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-03 13:04:50 -0800
+
+
+Started GET "/" for ::1 at 2015-03-03 13:06:47 -0800
+Processing by WebBoardController#board as HTML
+  Rendered web_board/board.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 80ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/web_board-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-03 13:06:48 -0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-03 13:06:48 -0800
+
+
+Started GET "/assets/jquery-8bdddda7cab034f4268c675695fe11c2.js?body=1" for ::1 at 2015-03-03 13:06:48 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-03 13:06:48 -0800
+
+
+Started GET "/assets/web_board-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-03 13:06:48 -0800
+
+
+Started GET "/assets/canvas-b9163a1b6e2cd5906dd6d813670c1b99.css?body=1" for ::1 at 2015-03-03 13:06:48 -0800
+
+
+Started GET "/assets/canvas-49ce8bfcc5d98d2fe81d987499511e51.js?body=1" for ::1 at 2015-03-03 13:06:48 -0800
+
+
+Started GET "/" for ::1 at 2015-03-03 13:11:45 -0800
+Processing by WebBoardController#board as HTML
+  Rendered web_board/board.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 36ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/canvas-b9163a1b6e2cd5906dd6d813670c1b99.css?body=1" for ::1 at 2015-03-03 13:11:45 -0800
+
+
+Started GET "/assets/web_board-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-03 13:11:45 -0800
+
+
+Started GET "/assets/canvas-49ce8bfcc5d98d2fe81d987499511e51.js?body=1" for ::1 at 2015-03-03 13:11:45 -0800
+
+
+Started GET "/assets/jquery-8bdddda7cab034f4268c675695fe11c2.js?body=1" for ::1 at 2015-03-03 13:11:45 -0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-03 13:11:45 -0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-03 13:11:45 -0800
+
+
+Started GET "/assets/web_board-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-03 13:11:45 -0800
+
+
+Started GET "/assets/jquery-8bdddda7cab034f4268c675695fe11c2.js?body=1" for ::1 at 2015-03-03 13:14:40 -0800
