@@ -1,4 +1,4 @@
-(function(){
+$( document ).ready(function() {
 	var canvas;
 	var context;
 	var clickX = new Array();
@@ -8,7 +8,7 @@
 	var canvasWidth = 650;
 	var canvasHeight = 450;
 
-	function init() {
+	function _init() {
 		var canvasDiv = document.getElementById('canvasDiv');
 		canvas = document.createElement('canvas');
 		canvas.setAttribute('width', canvasWidth);
@@ -76,4 +76,4 @@
 	     context.stroke();
 	  }
 	}
-})();
+});
