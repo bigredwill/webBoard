@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
+  get 'web_board/board'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'application#welcome'
+  root 'web_board#board'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
