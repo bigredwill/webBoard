@@ -1,15 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>WebBoard</title>
-  </head>
-<body>
-<div class="wrapper">
-	<button type="button" onclick="clearCanvas()">Clear</button>
-	<div id="canvasDiv"></div>
+<div class="flex">
+  <h1>Ruby WebBoard</h1>
 </div>
-<script type="text/javascript"> $(document).ready(function() {
-       init();
-});</script>
-</body>
-</html>
+
+<div class="flex">
+  <button id="share-button">Share Drawing</button>
+  <button id="clear-button">Reset</button>
+  <input id="color-picker" type="color" name="color" value="#bada55" />
+  <input id="size-picker" type="range" name="strokesize" value="5" min="1" max="10" />
+  <!-- <div id="color-picker"></div> -->
+</div>
+<div class="flex">
+  <div class="canvas-container">
+    <canvas width="600px" height="600px"></canvas>
+  </div>
+</div>

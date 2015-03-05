@@ -1,0 +1,92 @@
+/*#canvasDiv {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+}
+*/
+/* line 21, /Users/Casa/projects/webBoard/app/assets/stylesheets/web_board.scss */
+* {
+  font-family: sans-serif;
+}
+
+/* line 25, /Users/Casa/projects/webBoard/app/assets/stylesheets/web_board.scss */
+body {
+  background-color: #77b6ea;
+}
+
+/* line 31, /Users/Casa/projects/webBoard/app/assets/stylesheets/web_board.scss */
+.container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  width: 800px;
+  justify-content: center;
+}
+
+/* line 37, /Users/Casa/projects/webBoard/app/assets/stylesheets/web_board.scss */
+.flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+/* line 43, /Users/Casa/projects/webBoard/app/assets/stylesheets/web_board.scss */
+#color-picker {
+  background-color: light-grey;
+  border: 1px solid light-grey;
+  padding: 0;
+  border-radius: 4px;
+  width: 60px;
+  height: 18px;
+  margin-top: 4px;
+}
+
+/* line 53, /Users/Casa/projects/webBoard/app/assets/stylesheets/web_board.scss */
+button {
+  background-color: #fffffd;
+  color: black;
+  vertical-align: top;
+  font-size: 85%;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 4px;
+  margin: 0.3em;
+}
+
+/* line 66, /Users/Casa/projects/webBoard/app/assets/stylesheets/web_board.scss */
+canvas {
+  border-radius: 4px;
+  margin: auto;
+  background-color: #fffffd;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+

@@ -1,3 +1,72 @@
 // Place all the styles related to the WebBoard controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+// globals
+$color1: #77b6ea;
+$color2: #c0d7c7;
+$color3: #6b816b;
+$color4: #bada55;
+$color5: #9bc59d;
+
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: $color1;
+}
+
+
+
+.container {
+  @include flexbox();
+  width: 800px;
+  justify-content: center;
+}
+
+.flex {
+  @include flexbox();
+  flex-flow: row;
+  justify-content: center;
+}
+
+#color-picker {
+  background-color: light-grey;
+  border: 1px solid light-grey;
+  padding: 0;
+  border-radius: 4px;
+  width: 60px;
+  height: 18px;
+  margin-top: 4px;
+}
+
+button {
+  background-color: #fffffd;
+  color: black;
+  vertical-align: top;
+  font-size: 85%;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 4px;
+  margin: 0.3em;
+}
+
+
+canvas {
+  // set canvas width and height on the actual canvas element
+  // doing it through a style sheet scales it strangely :\
+  border-radius: 4px;
+  margin: auto;
+  background-color: #fffffd;
+}
