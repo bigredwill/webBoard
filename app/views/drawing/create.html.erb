@@ -1,0 +1,6 @@
+<div class="flex">
+  <% if @drawing %>
+    <%= link_to "Static image: #{ @drawing.id }", drawing_path(@drawing.id) %>
+    <%= link_to "Have someone draw on top of this image: #{ @drawing.id }", edit_drawing_path(@drawing.id) %>
+  <% end %>
+</div>

@@ -23,10 +23,19 @@ $color5: #9bc59d;
 }
 
 body {
-  background-color: $color1;
+  background-color: #ffffff;
 }
 
+h1, h2, h3, h4, h5, a, p {
+  display: inline;
+}
 
+img {
+  border: 1px solid light-grey;
+}
+.hidden {
+  display: none;
+}
 
 .container {
   @include flexbox();
@@ -38,6 +47,7 @@ body {
   @include flexbox();
   flex-flow: row;
   justify-content: center;
+  align-items: baseline;
 }
 
 #color-picker {
@@ -66,7 +76,8 @@ button {
 canvas {
   // set canvas width and height on the actual canvas element
   // doing it through a style sheet scales it strangely :\
+  border: 5px solid black;
   border-radius: 4px;
   margin: auto;
-  background-color: #fffffd;
+  background-color: #ffffff;
 }
