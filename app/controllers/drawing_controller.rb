@@ -7,38 +7,25 @@ class DrawingController < ApplicationController
 
   #root
   def index
-
+    logger.debug request.base_url
   end
 
   #POST
   def create
-    # render plain: params[:drawing]inspect
-    # js = JSON.parse(params[:drawing])
-    # js = params[:dataURI]
-    # render plain: js
-    # unless params[:drawing].nil?
-      @drawing = Drawing.new
-      @drawing.imgUrl = params[:dataURI]
-      flash[:drawing_id] = @drawing.id if @drawing.save
-      logger.debug @drawing.id
-      # json_response = { :edit_url => edit_drawing_path(@drawing.id), :static_url => drawing_path(@drawing.id), :id => @drawing.id}.to_json
-      # respond_to do |format|
-      #   format.json { render :json => json_response }
-
-      # end
-    # end
+    @drawing = Drawing.new
+    @drawing.imgUrl = params[:dataURI]
+    flash[:base_url] = request.base_url if @drawing.save
   end
 
   #GET, new drawing
   def new 
-    
   end
 
   #GET, edit drawing
   def edit
     @drawing = Drawing.find_by(id: params[:id])
     if @drawing.present?
-      render layout: "static" and return
+      render layout: "application" and return
     end
     redirect_to action: error
   end

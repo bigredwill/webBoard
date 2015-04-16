@@ -1,6 +1,9 @@
-<div class="flex">
+
   <% if @drawing %>
-    <%= link_to "Static image: #{ @drawing.id }", drawing_path(@drawing.id) %>
-    <%= link_to "Have someone draw on top of this image: #{ @drawing.id }", edit_drawing_path(@drawing.id) %>
+    <h3 class="flex">Share your drawing</h3>
+    To share a static image (not drawable), use this link: <%= link_to "#{ flash[:base_url] }/#{ @drawing.id }", drawing_path(@drawing.id), :class => "flex"%>
+    To share a drawable image, use this link: <%= link_to "#{ flash[:base_url] }/#{ @drawing.id }", edit_drawing_path(@drawing.id), :class => "flex"%>
+
+  <% else %>
+  <h3>Something went wrong, your image didn't save.</h3>
   <% end %>
-</div>
