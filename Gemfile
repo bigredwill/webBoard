@@ -11,6 +11,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
+# gem 'haml'
+
 
 # jquery Turbolinks fixes the page loading issue
 gem 'jquery-turbolinks'
@@ -50,6 +52,10 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring', '>=1.3.3'
+
+  gem 'guard-livereload', require: false
+
+  gem "rack-livereload"
 
   
 end

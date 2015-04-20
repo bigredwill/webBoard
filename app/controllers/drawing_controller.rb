@@ -15,6 +15,7 @@ class DrawingController < ApplicationController
     @drawing = Drawing.new
     @drawing.imgUrl = params[:dataURI]
     flash[:base_url] = request.base_url if @drawing.save
+    render layout: "blank" and return
   end
 
   #GET, new drawing

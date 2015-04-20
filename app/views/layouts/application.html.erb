@@ -7,11 +7,78 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <h1 class="flex">Collaborative Drawing</h1>
+  <a href="/"><h1 class="flex">Collaborative Drawing</h1></a>
   <div class="flex">
     <h3>A project by <a href="http://wsimons.com">Will Simons</a>, <a href="">Mike Phe</a>, and <a href="">Brian Guilliardi.</a></h3>
   </div>
+  <div class="flex">
 
+    <div class="button" id="share-button">Share Drawing</div>
+    <div class="button" id="clear-button">Reset</div>
+    <!-- <button id="share-button">Share Drawing</button>
+    <button id="clear-button">Reset</button> -->
+    <!-- <input id="color-picker" type="color" name="color" value="#bada55" /> -->
+    <!-- <input id="size-picker" type="range" name="strokesize" value="5" min="1" max="10" /> -->
+  </div>
+  <div class="flex">
+    <div class="flex-vertical">
+      <div class='color' id='c1'></div>
+      <div class='color' id='c2'></div>
+      <div class='color' id='c3'></div>
+      <div class='color' id='c4'></div>
+      <div class='color' id='c5'></div>
+      <div class='color' id='c6'></div>
+      <div class='color' id='c7'></div>
+      <div class='color' id='c8'></div>
+      <div class='color' id='c9'></div>
+      <div class='color' id='c10'></div>
+      <div class='color' id='c11'></div>
+      <div class='color' id='c12'></div>
+      <div class='color' id='c13'></div>
+      <div class='color' id='c14'></div>
+      <div class='color' id='c15'></div>
+      <div class='color' id='c16'></div>
+      <div class='color' id='c17'></div>
+      <div class='color' id='c18'></div>
+      <div class='color' id='c19'></div>
+      <div class='color' id='c20'></div>
+    </div>
+    <div class="canvas-container">
+      <canvas width="600px" height="600px"></canvas>
+    </div>
+    <div class="flex-vertical">
+        <div class='size'>
+          <div class='inner-size' id='s1'></div>
+        </div>
+        <div class='size'>
+          <div class='inner-size' id='s2'></div>
+        </div>
+        <div class='size'>
+          <div class='inner-size' id='s3'></div>
+        </div>
+        <div class='size'>
+          <div class='inner-size' id='s4'></div>
+        </div>
+        <div class='size'>
+          <div class='inner-size' id='s5'></div>
+        </div>
+        <div class='size'>
+          <div class='inner-size' id='s6'></div>
+        </div>
+        <div class='size'>
+          <div class='inner-size' id='s7'></div>
+        </div>
+        <div class='size'>
+          <div class='inner-size' id='s8'></div>
+        </div>
+        <div class='size'>
+          <div class='inner-size' id='s9'></div>
+        </div>
+        <div class='size'>
+          <div class='inner-size' id='s10'></div>
+        </div>
+    </div>
+  </div>
 <%= yield %>
 
 </body>
