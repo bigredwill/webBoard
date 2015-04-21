@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>WebBoard</title>
+  <%= favicon_link_tag 'favicon.ico' %>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -12,13 +13,8 @@
     <h3>A project by <a href="http://wsimons.com">Will Simons</a>, <a href="https://www.linkedin.com/in/mikephe">Mike Phe</a>, and <a href="https://www.linkedin.com/in/brianguilardi">Brian Guilliardi.</a></h3>
   </div>
   <div class="flex">
-
     <div class="button" id="share-button">Share Drawing</div>
     <div class="button" id="clear-button">Reset</div>
-    <!-- <button id="share-button">Share Drawing</button>
-    <button id="clear-button">Reset</button> -->
-    <!-- <input id="color-picker" type="color" name="color" value="#bada55" /> -->
-    <!-- <input id="size-picker" type="range" name="strokesize" value="5" min="1" max="10" /> -->
   </div>
   <div class="flex">
     <div class="flex-vertical">
